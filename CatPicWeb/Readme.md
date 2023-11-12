@@ -21,7 +21,7 @@ This cat picture app is a demonstration of creating a simple webpage using 100% 
 
 Feel free to explore the codebase to gain insights into my learning journey and the fundamentals of HTML. Adapt it for your own coding endeavors!
 
-Check out the live version: [Cat Picture App](https://your-cat-picture-app-url)
+Check out my other projects: [Htmls Projects](https://github.com/Seif-01/HTMLs-Builds)
 
 Happy coding!
 
