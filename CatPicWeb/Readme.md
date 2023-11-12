@@ -1,26 +1,27 @@
-# Responsive Web Design Project - Seif-01
+# Cat Picture App - HTML Basics Project
 
 ## Overview
 
-Welcome to my Responsive Web Design project, crafted as part of my initial lessons on responsive web design at FreeCodeCamp.
+Welcome to my Cat Picture App project, developed entirely with HTML basics. This project is an outcome of my initial lessons on responsive web design at FreeCodeCamp.
 
 ## Project Description
 
-This project showcases a well-structured webpage featuring content aligned with the principles learned in the first lesson. I have incorporated fundamental HTML elements, including headers (`h1`), paragraphs (`p`), images (`img`), unordered lists (`ul`), and figures (`figure`). The design is consciously created to ensure responsiveness.
+This cat picture app is a demonstration of creating a simple webpage using 100% HTML basics. It features a variety of HTML elements, including headers (`h1`), paragraphs (`p`), images (`img`), unordered lists (`ul`), figures (`figure`), and more. The layout is designed to be responsive and user-friendly.
 
 ## Development Environment
 
 - **Operating System:** Ubuntu
-- **Terminal:** I utilized the web terminal and Git Bash for efficient file editing and seamless pushing of changes to my GitHub repository.
+- **Terminal:** I used the web terminal and Git Bash for efficient file editing and pushing changes to my GitHub repository.
 
 ## Technologies Used
 
-- **HTML5:** For structuring the content.
-- **CSS3:** Basic styling for enhanced layout and presentation.
+- **HTML5:** Exclusively used for structuring the content.
 
 ## Resources
 
-Explore the codebase to gain insights into my learning journey. Feel free to adapt it to your own coding endeavors!
+Feel free to explore the codebase to gain insights into my learning journey and the fundamentals of HTML. Adapt it for your own coding endeavors!
+
+Check out the live version: [Cat Picture App](https://your-cat-picture-app-url)
 
 Happy coding!
 
