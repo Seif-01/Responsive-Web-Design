@@ -1,4 +1,4 @@
-Learning Journey
+Learning Journey from www.freecodecamp.org/learn/2022/responsive-web-design
 
     Cat Photo App:
         Build a basic cat photo app to grasp the essentials of HTML and CSS.
