@@ -1,44 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dancing Red Square</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+    
+    /* CSS styles for the square */
+    #square {
+      width: 100px;
+      height: 100px;
+      background-color: red; /* Set the square's background color to red */
+      position: relative;
+      animation: dance 2s ease-in-out infinite alternate; /* Define animation */
+    }
+    
+    /* Keyframes for the dancing animation */
+    @keyframes dance {
+      from { transform: translateX(0); }
+      to { transform: translateX(200px); } /* Adjusted to move further */
+    }
+  </style>
+</head>
 <body>
-  <canvas id="myCanvas" width="480" height="320" style="border: 1px solid #000000;">
-    Your browser does not support the HTML canvas tag.
-  </canvas>
-  <script>
-    var canvas = document.getElementById("myCanvas");
-    var ctx = canvas.getContext("2d");
-    var x = canvas.width / 2;
-    var y = canvas.height - 30;
-    var dx = 2; // Corrected the missing '=' symbol
-    var dy = -2;
-    var ballRadius = 10;
-
-    function drawBall() {
-      ctx.beginPath();
-      ctx.arc(x, y, ballRadius, 0, Math.PI * 2);
-      ctx.fillStyle = "#0095DD";
-      ctx.fill();
-      ctx.closePath();
-    }
-
-    function draw() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      drawBall();
-
-      if (x + dx > canvas.width - ballRadius || x + dx < ballRadius) {
-        dx = -dx;
-      }
-
-      if (y + dy > canvas.height - ballRadius || y + dy < ballRadius) {
-        dy = -dy;
-      }
-
-      x += dx;
-      y += dy;
-    }
-
-    setInterval(draw, 10);
-  </script>
+  <div id="square"></div> <!-- The square element -->
 </body>
 </html>
 
